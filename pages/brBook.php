@@ -49,7 +49,6 @@ if ($current_page === 'brBook') {
                 </thead>
                 <tbody>
                     <?php
-                    // Display search results
                     while ($row = $result->fetch_assoc()) : ?>
                         <tr>
                             <td><?php echo $row['b_id']; ?></td>
